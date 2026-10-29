@@ -8,19 +8,22 @@
   <link rel="stylesheet" href="./CSS/normalize.css">
   <link rel="stylesheet" href="./CSS/DiegoCss.css">
   <link rel="stylesheet" href="./CSS/disenoangel.css">
-  
 </head>
 
 <body>
   <header>
     <!-- Encabezado y navegación principal -->
+    
     <nav class="navigation">
+      <div> <button id="header-menu" type="button" > <i class="bi bi-award-fill"></i> Menu</button> </div>
+      <div id="hiddenLinks" class="hidden">
       <a class="navigation__link" href="./index.html">Tienda UMAD</a>
       <a class="navigation__link" href="./pages/Mujer.html">Mujer</a>
       <a class="navigation__link" href="./pages/hombre.html">Hombre</a>
       <a class="navigation__link" href="./pages/Productos.html">Productos</a>
       <a class="navigation__link" href="./pages/Nosotros.html">Nosotros</a>
       <a class="navigation__link" href="./pages/Contacto.html">Contacto</a>
+      </div>
       <span class="buscador">
         <label for="buscar">Buscar</label>
         <input type="text" id="buscar" name="buscar">
@@ -101,6 +104,9 @@
       <p class="footer-navigation__text">Orgullo que se viste.</p>
     </nav>
   </footer>
+
+  
 </body>
+<script src="./Javascript/buttonFunction.js"></script>
 
 </html>
